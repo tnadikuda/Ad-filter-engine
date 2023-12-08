@@ -1,0 +1,96 @@
+Simple LSTM
+
+Epoch 1/5
+4566/4566 [==============================] - 159s 34ms/step - loss: 0.4857 - accuracy: 0.7725
+Epoch 2/5
+4566/4566 [==============================] - 159s 35ms/step - loss: 0.4093 - accuracy: 0.8224
+Epoch 3/5
+4566/4566 [==============================] - 160s 35ms/step - loss: 0.3973 - accuracy: 0.8278
+Epoch 4/5
+4566/4566 [==============================] - 159s 35ms/step - loss: 0.3864 - accuracy: 0.8333
+Epoch 5/5
+4566/4566 [==============================] - 159s 35ms/step - loss: 0.3752 - accuracy: 0.8391
+1522/1522 [==============================] - 15s 10ms/step - loss: 0.3535 - accuracy: 0.8470
+
+Final Cross-Validation Accuracy 0.8470225930213928 
+
+
+1522/1522 [==============================] - 15s 9ms/step
+f1_score 0.8499436029648727
+recall 0.865032184002296
+precision 0.8353723720156788
+
+
+1D Convolution and LSTM 
+
+Epoch 1/5
+4566/4566 [==============================] - 132s 28ms/step - loss: 0.4519 - accuracy: 0.7875
+Epoch 2/5
+4566/4566 [==============================] - 130s 28ms/step - loss: 0.3475 - accuracy: 0.8548
+Epoch 3/5
+4566/4566 [==============================] - 129s 28ms/step - loss: 0.3164 - accuracy: 0.8704
+Epoch 4/5
+4566/4566 [==============================] - 130s 29ms/step - loss: 0.2958 - accuracy: 0.8791
+Epoch 5/5
+4566/4566 [==============================] - 131s 29ms/step - loss: 0.2798 - accuracy: 0.8871
+1522/1522 [==============================] - 14s 9ms/step - loss: 0.2331 - accuracy: 0.9040
+
+Final Cross-Validation Accuracy 0.9040451645851135 
+
+1522/1522 [==============================] - 12s 8ms/step
+f1_score 0.9053837899127336
+recall 0.9166495838629003
+precision 0.894391551324106
+
+1D Convolutions and Fully Connected Layers 
+
+Epoch 1/5
+4566/4566 [==============================] - 233s 51ms/step - loss: 0.6520 - accuracy: 0.6768
+Epoch 2/5
+4566/4566 [==============================] - 234s 51ms/step - loss: 0.5011 - accuracy: 0.7553
+Epoch 3/5
+4566/4566 [==============================] - 233s 51ms/step - loss: 0.4627 - accuracy: 0.7835
+Epoch 4/5
+4566/4566 [==============================] - 231s 51ms/step - loss: 0.4436 - accuracy: 0.7944
+Epoch 5/5
+4566/4566 [==============================] - 231s 51ms/step - loss: 0.4316 - accuracy: 0.7999
+1522/1522 [==============================] - 24s 16ms/step - loss: 0.3850 - accuracy: 0.8245
+
+Final Cross-Validation Accuracy 0.8245174288749695
+
+
+1522/1522 [==============================] - 24s 15ms/step
+f1_score 0.8215195689403115
+recall 0.8063630027469149
+precision 0.8372568217615257
+
+
+1D Convolution and Bidirectional-LSTM
+
+Epoch 1/5
+4566/4566 [==============================] - 166s 36ms/step - loss: 0.4411 - accuracy: 0.7928
+Epoch 2/5
+4566/4566 [==============================] - 152s 33ms/step - loss: 0.3319 - accuracy: 0.8623
+Epoch 3/5
+4566/4566 [==============================] - 148s 32ms/step - loss: 0.2928 - accuracy: 0.8803
+Epoch 4/5
+4566/4566 [==============================] - 149s 33ms/step - loss: 0.2683 - accuracy: 0.8905
+Epoch 5/5
+4566/4566 [==============================] - 149s 33ms/step - loss: 0.2498 - accuracy: 0.8994
+1522/1522 [==============================] - 16s 10ms/step - loss: 0.2043 - accuracy: 0.9185
+
+Final Cross-Validation Accuracy 0.918459951877594 
+
+1522/1522 [==============================] - 16s 10ms/step
+f1_score 0.9184348361918455
+recall 0.9166085851338609
+precision 0.9202683790236272
+
+
+
+
+                                     ML Model  Accuracy  f1_score  Recall  Precision
+0       1D Convolution and Bidirectional LSTM     0.924		0.924	0.920	0.928
+1                     1D Convolution and LSTM     0.915		0.916	0.926	0.907
+2                                 Simple LSTM     0.838		0.842	0.860	0.824
+3  1D Convolutions and Fully Connected Layers     0.825		0.827	0.832	0.822

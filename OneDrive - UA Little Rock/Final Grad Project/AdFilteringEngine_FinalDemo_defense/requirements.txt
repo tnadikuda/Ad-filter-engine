@@ -1,0 +1,5 @@
+PyQt5
+PyQtWebEngine
+pandas
+tensorflow
+keras.preprocessing
