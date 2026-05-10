@@ -1,4 +1,4 @@
-This project is intended for the College semester research purpose.
+
 
 Objective of the project is Ad-Filtering using ML and DL techniques.
 
