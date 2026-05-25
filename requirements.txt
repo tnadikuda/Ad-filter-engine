@@ -1,0 +1,10 @@
+PyQt5
+PyQtWebEngine
+pandas
+tensorflow==2.15.0
+scikit-learn
+xgboost
+beautifulsoup4
+requests
+matplotlib
+numpy
